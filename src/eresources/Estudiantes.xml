@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<estudiantes>
+  <estudiante>
+    <nombre>Juan</nombre>
+    <apellido>García</apellido>
+    <materias>
+      <materia>
+        <nombre>Matemáticas</nombre>
+        <calificación>8.5</calificación>
+      </materia>
+      <materia>
+        <nombre>Ciencias</nombre>
+        <calificación>9.2</calificación>
+      </materia>
+    </materias>
+  </estudiante>
+  <estudiante>
+    <nombre>María</nombre>
+    <apellido>Rodríguez</apellido>
+    <materias>
+      <materia>
+        <nombre>Historia</nombre>
+        <calificación>7.8</calificación>
+      </materia>
+      <materia>
+        <nombre>Artes</nombre>
+        <calificación>8.7</calificación>
+      </materia>
+    </materias>
+  </estudiante>
+</estudiantes>
