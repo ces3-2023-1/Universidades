@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<!DOCTYPE estudiantes SYSTEM "Estudiante.dtd" >
+
+<estudiantes>
+    <!-- Este es un comentario -->
+    <estudiante nombre="Elian Ruiz">
+        <edad>21</edad>
+        <comentario>El codigo da error</comentario>
+        <materias>
+            <materia codReg="TMR000033">
+                <codigo>ING20</codigo>
+                <nombreMat>Ingenieria de software</nombreMat>
+                <estado>True</estado>
+            </materia>
+
+            <materia codReg="TMR000433">
+                <codigo>ING23</codigo>
+                <nombreMat>Comunicacion audiovisual</nombreMat>
+                <estado>False</estado>
+            </materia>
+        </materias>
+    </estudiante>
+</estudiantes>
