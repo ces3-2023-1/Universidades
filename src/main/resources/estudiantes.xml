@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE estudiantes SYSTEM "estudiantes.dtd">
+
+<estudiantes>
+    <estudiante nombre="Camilo">
+        <edad>20</edad>
+        <materias>
+            <materia codigo="001">
+                <nombre>CES3</nombre>
+                <activo>true</activo>
+            </materia>
+        </materias>
+    </estudiante>
+    <estudiante nombre="Oscar">
+        <edad>21</edad>
+    </estudiante>
+</estudiantes>
