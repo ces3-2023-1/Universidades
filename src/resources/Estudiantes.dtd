@@ -1,0 +1,10 @@
+<!ELEMENT estudiantes (estudiante)>
+<!ELEMENT estudiante (edad?,comentario*,materias?)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT comentario (#PCDATA)>
+<!ELEMENT materias (materia+)>
+<!ELEMENT materia (codigo,nombreMat+,activo)>
+<!ATTLIST materia CODREGISTRO #IMPLIED>
+<!ELEMENT codigo (#PCDATA)>
+<!ELEMENT nombreMat (#PCDATA)>
+<!ELEMENT activo (#PCDATA)>
