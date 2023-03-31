@@ -24,6 +24,14 @@ public class Main {
             List<Student> students = mapper.readValue(inputStream, typeReference);
 
             System.out.println("cool!!");
+
+            for (Student x: students) {
+                System.out.println("**********************");
+                System.out.println("Estudiante con documento: " + x.getDocumento());
+                System.out.println("Tipo de documento: " + x.getTipoDocumento());
+                System.out.println("**********************");
+            }
+
             //System.out.println(System. getProperty("user.dir"));
         }catch(IOException e){
             System.out.println("mi error: "+e.getMessage());
