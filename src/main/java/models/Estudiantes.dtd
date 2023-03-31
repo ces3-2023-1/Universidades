@@ -1,0 +1,14 @@
+
+        <!ELEMENT estudiantes (estudiante*)>
+        <!ELEMENT estudiante (edad?,comentario*,materias?)>
+        <!ATTLIST estudiante documento ID #REQUIRED>
+        <!ATTLIST estudiante nacionalidad CDATA #IMPLIED>
+        <!ATTLIST estudiante tipoDocumento (CC|TI|CE|RC) #REQUIRED>
+        <!ELEMENT edad (#PCDATA)>
+        <!ELEMENT comentario (#PCDATA)>
+        <!ELEMENT materias (materia+)>
+        <!ELEMENT materia (codigo,nombreMat,activo) | (codigo))>
+        <!ATTLIST materia CODREGISTRO CDATA #REQUIRED>
+        <!ELEMENT codigo (#PCDATA)>
+        <!ELEMENT nombreMat (#PCDATA)>
+        <!ELEMENT activo (#PCDATA)>

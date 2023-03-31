@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone ="yes" ?>
+
+<!DOCTYPE estudiantes SYSTEM "Estudiantes.dtd">
+<estudiantes>
+    <!-- Este es un comentario
+    -->
+    <estudiante documento ="DOC12345678" nacionalidad="EEUU" tipoDocumento ="CC">
+        <edad>21</edad>
+        <comentario>
+            fdksjaflasdjdlsjaflsad
+            asdjflkjsd
+        </comentario>
+
+        <materias>
+            <materia CODREGISTRO="TMPO234">
+                <codigo>CB21</codigo>
+                <nombreMat>Calculo 1</nombreMat>
+                <activo>false</activo>
+            </materia>
+        </materias>
+    </estudiante>
+
+</estudiantes>
