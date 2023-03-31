@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--<!DOCTYPE estudiantes[]>-->
+<!DOCTYPE estudiantes SYSTEM "Estudiantes.dtd">
+<estudiantes>
+    <estudiante nombre = "Andres" documento="doc01" nacionalidad="EEUU" tipoDocumento="CC">
+        <edad>31</edad>
+            <comentario>
+                Mediante esto se puede incluir un carácter unicode
+            </comentario>
+        <materias>
+            <materia codRegistro="BGFDFG2645">
+                <codigo>ING21</codigo>
+                <nombreMat>Calculo 1</nombreMat>
+                <activo>true</activo>
+            </materia>
+            <materia codRegistro="ASDASD848496">
+                <codigo>ING20</codigo>
+                <nombreMat>Ingernieria informatica</nombreMat>
+                <activo>false</activo>
+            </materia>
+        </materias>
+    </estudiante>
+    <estudiante nombre = "Camilo" documento="doc02" nacionalidad="CO" tipoDocumento="CC">
+        <edad>28</edad>
+        <comentario>
+            Mediante esto se puede incluir un carácter unicode
+        </comentario>
+        <materias>
+            <materia codRegistro="AFSDFDS54865">
+                <codigo>ING21</codigo>
+                <nombreMat>Calculo 2</nombreMat>
+                <activo>true</activo>
+            </materia>
+            <materia codRegistro="ASDFD4556">
+                <codigo>ING20</codigo>
+                <nombreMat>Ingernieria mecanica</nombreMat>
+                <activo>true</activo>
+            </materia>
+        </materias>
+    </estudiante>
+</estudiantes>
