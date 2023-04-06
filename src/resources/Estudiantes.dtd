@@ -1,0 +1,18 @@
+<!--Declarando Modelo Materias-->
+<!--
+? -* Significa que la entidad debe mostrar solamente uno
+* -* la entidad debe mostrar 0 o 1 datos
++ -* la entidad debe aparecer varios datos
+-->
+<!ELEMENT estudiantes (estudiante)>
+<!ELEMENT estudiante (edad?,comentario*,materias?)>
+<!ATTLIST estudiante nombre #PCDATA>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT comentario (#PCDATA)>
+
+<!--Declarando Modelo Materias-->
+<!ELEMENT materias (materia+)>
+<!ELEMENT materia (codigo?,nombreMat+,estado?)>
+<!ELEMENT codigo (#PCDATA)><!ELEMENT nombreMat (#PCDATA)>
+<!ELEMENT estado (#PCDATA)>
+<!ATTLIST materia codeRegistro #PCDATA>
