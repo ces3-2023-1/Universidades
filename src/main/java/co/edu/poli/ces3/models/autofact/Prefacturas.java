@@ -28,7 +28,7 @@ public class Prefacturas extends LogAudits{
         return nombre;
     }
 
-    public Date getFechaSubida() {
+    public Date getFechaSubida(){
         return fechaSubida;
     }
 

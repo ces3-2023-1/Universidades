@@ -1,10 +1,15 @@
 package co.edu.poli.ces3.models.autofact;
 
 public class Productos extends  LogAudits {
+    private String code;
     private String nombre;
-    private  int cantidad;
+    private int cantidad;
     private String unidad;
     private double totalNeto;
+    private double iva;
+    private String formapago;
+    private String proceso;
+    private String descripcion;
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
@@ -62,7 +67,19 @@ public class Productos extends  LogAudits {
         return descripcion;
     }
 
-    private double iva;
-    private String formapago;
-    private String descripcion;
+    public String getCode() {
+        return code;
+    }
+
+    public void setCode(String code) {
+        this.code = code;
+    }
+
+    public String getProceso() {
+        return proceso;
+    }
+
+    public void setProceso(String proceso) {
+        this.proceso = proceso;
+    }
 }

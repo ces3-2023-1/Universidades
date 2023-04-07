@@ -1,6 +1,6 @@
 package co.edu.poli.ces3.models.autofact;
 
-import java.sql.Date;
+import java.util.Date;
 
 public class LogAudits {
     private String audit_createBy;

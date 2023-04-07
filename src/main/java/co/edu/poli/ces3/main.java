@@ -2,6 +2,7 @@ package co.edu.poli.ces3;
 
 import co.edu.poli.ces3.models.Estudiantes;
 import co.edu.poli.ces3.models.Materias;
+import co.edu.poli.ces3.models.autofact.Prefacturas;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
@@ -20,13 +21,25 @@ public class main {
             ObjectMapper mapper = new XmlMapper();
             //InputStream--> Permite parte nativa java, captura de datos. Entradas y salidas de datos
             //FileInputStream --> declara un parametro que es un archivo, una imagen y una cadena string
-            InputStream inputStream = new FileInputStream(new File("src\\resources\\Estudiantes.xml"));
-            TypeReference<List<Estudiantes>> typeReference = new TypeReference<List<Estudiantes>>(){};
-            List<Estudiantes> estudiantes = mapper.readValue(inputStream, typeReference);
-            //Funcion identifica la rama del proyecto
-            //System.out.println(System.getProperty("user.dir"));
+            InputStream inputStream = new FileInputStream(new File("src\\resources\\Prefacturas.xml"));
+            TypeReference<List<Prefacturas>> typeReference = new TypeReference<List<Prefacturas>>(){};
+            List<Prefacturas> prefacturas = mapper.readValue(inputStream, typeReference);
 
-            for (Estudiantes x:estudiantes) {
+            for (Prefacturas x:prefacturas) {
+                System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++");
+                System.out.println("Nombre: "+ x.getNombre());
+                System.out.println("Fecha Subida: "+ x.getFechaSubida());
+                System.out.println("Resposable De: "+ x.getAudit_createBy());
+                System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++");
+                /*for (Materias mat:x.getMaterias()) {
+                    System.out.println("Nom Materia: "+ mat.getNombreMat());
+                    System.out.println("Codigo Registro: "+ mat.getCodeRegistro());
+                    System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++");
+                }*/
+                System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++");
+            }
+
+         /*   for (Estudiantes x:estudiantes) {
                 System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++");
                 System.out.println("Estudiante: "+ x.getNombre());
                 System.out.println("Comentario: "+ x.getComentario());
@@ -38,9 +51,7 @@ public class main {
                     System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++");
                 }
                 System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++");
-            }
-            
-            //System.out.println("Gonorrea");
+            }*/
         }
         catch(IOException ex)
         {

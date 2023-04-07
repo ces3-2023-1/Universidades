@@ -5,9 +5,9 @@
         <fechaSubida>2023-03-01</fechaSubida>
         <estado>true</estado>
         <audit_createBy>alejandro.jaramillp</audit_createBy>
-        <audit_createdate>2023-03-10 12:00:00</audit_createdate>
+        <audit_createdate>2023-03-10T12:00:00</audit_createdate>
         <audit_modifyBy>santiago.cortes</audit_modifyBy>
-        <audit_modifyDate>2023-03-15 12:00:00</audit_modifyDate>
+        <audit_modifyDate>2023-03-15T12:00:00</audit_modifyDate>
 
         <distribuidores>
             <distribuidor nombre="Viva Envigado">
@@ -22,9 +22,9 @@
                         <formapago>Enfectivo</formapago>
                         <descripcion>Para realizar capuchino sabor arequipe y vainilla</descripcion>
                         <audit_createBy>admin</audit_createBy>
-                        <audit_createdate>2023-03-02 12:00:00</audit_createdate>
+                        <audit_createdate>2023-03-02T12:00:00</audit_createdate>
                         <audit_modifyBy>santiago.cortes</audit_modifyBy>
-                        <audit_modifyDate>2023-03-15 12:00:00</audit_modifyDate>
+                        <audit_modifyDate>2023-03-15T12:00:00</audit_modifyDate>
                     </producto>
                     <producto code="ING-002">
                         <nombre>Masas de Churro</nombre>
@@ -36,9 +36,9 @@
                         <descripcion>Masa procesado listo para fritar los churros</descripcion>
                         <proceso>Pendiente</proceso>
                         <audit_createBy>andres.fernandez</audit_createBy>
-                        <audit_createdate>2023-03-15 12:00:00</audit_createdate>
+                        <audit_createdate>2023-03-15T12:00:00</audit_createdate>
                         <audit_modifyBy>santiago.cortes</audit_modifyBy>
-                        <audit_modifyDate>2023-03-16 12:00:00</audit_modifyDate>
+                        <audit_modifyDate>2023-03-16T12:00:00</audit_modifyDate>
                     </producto>
                     <producto code="ING-003">
                         <nombre>Uniformes Talla M</nombre>
@@ -50,9 +50,9 @@
                         <descripcion>Uniforme nuevo para entregar a los nuevos empleados</descripcion>
                         <proceso>Pendiente</proceso>
                         <audit_createBy>andres.fernandez</audit_createBy>
-                        <audit_createdate>2023-03-15 12:00:00</audit_createdate>
+                        <audit_createdate>2023-03-15T12:00:00</audit_createdate>
                         <audit_modifyBy>santiago.cortes</audit_modifyBy>
-                        <audit_modifyDate>2023-03-16 12:00:00</audit_modifyDate>
+                        <audit_modifyDate>2023-03-16T12:00:00</audit_modifyDate>
                     </producto>
                     <producto code="ING-004">
                         <nombre>Galon de Aceite Vegetal</nombre>
@@ -64,9 +64,9 @@
                         <descripcion>Nuevo insumo</descripcion>
                         <proceso>Ejecutado</proceso>
                         <audit_createBy>andres.fernandez</audit_createBy>
-                        <audit_createdate>2023-03-15 12:00:00</audit_createdate>
+                        <audit_createdate>2023-03-15T12:00:00</audit_createdate>
                         <audit_modifyBy>santiago.cortes</audit_modifyBy>
-                        <audit_modifyDate>2023-03-16 12:00:00</audit_modifyDate>
+                        <audit_modifyDate>2023-03-16T12:00:00</audit_modifyDate>
                     </producto>
                 </productos>
             </distribuidor>
@@ -83,9 +83,9 @@
                         <descripcion>Contiene chocolate, vainilla y fresa</descripcion>
                         <proceso>Ejecutado</proceso>
                         <audit_createBy>admin</audit_createBy>
-                        <audit_createdate>2023-03-02 12:00:00</audit_createdate>
+                        <audit_createdate>2023-03-02T12:00:00</audit_createdate>
                         <audit_modifyBy>santiago.cortes</audit_modifyBy>
-                        <audit_modifyDate>2023-03-15 12:00:00</audit_modifyDate>
+                        <audit_modifyDate>2023-03-15T12:00:00</audit_modifyDate>
                     </producto>
                     <producto code="ING-002">
                         <nombre>Masas de Churro</nombre>
@@ -97,9 +97,9 @@
                         <descripcion>Masa procesado listo para fritar los churros</descripcion>
                         <proceso>Pendiente</proceso>
                         <audit_createBy>andres.fernandez</audit_createBy>
-                        <audit_createdate>2023-03-15 12:00:00</audit_createdate>
+                        <audit_createdate>2023-03-15T12:00:00</audit_createdate>
                         <audit_modifyBy>santiago.cortes</audit_modifyBy>
-                        <audit_modifyDate>2023-03-16 12:00:00</audit_modifyDate>
+                        <audit_modifyDate>2023-03-16T12:00:00</audit_modifyDate>
                     </producto>
                     <producto code="ING-006">
                         <nombre>Caja Presentacion Don Churro</nombre>
@@ -111,9 +111,9 @@
                         <descripcion>Cajas de presentacion para colocar los churros</descripcion>
                         <proceso>Pendiente</proceso>
                         <audit_createBy>andres.fernandez</audit_createBy>
-                        <audit_createdate>2023-03-15 12:00:00</audit_createdate>
+                        <audit_createdate>2023-03-15T12:00:00</audit_createdate>
                         <audit_modifyBy>santiago.cortes</audit_modifyBy>
-                        <audit_modifyDate>2023-03-16 12:00:00</audit_modifyDate>
+                        <audit_modifyDate>2023-03-16T12:00:00</audit_modifyDate>
                     </producto>
                     <producto code="ING-004">
                         <nombre>Galon de Aceite Vegetal</nombre>
@@ -125,9 +125,9 @@
                         <descripcion>Nuevo insumo</descripcion>
                         <proceso>Ejecutado</proceso>
                         <audit_createBy>andres.fernandez</audit_createBy>
-                        <audit_createdate>2023-03-15 12:00:00</audit_createdate>
+                        <audit_createdate>2023-03-15T12:00:00</audit_createdate>
                         <audit_modifyBy>santiago.cortes</audit_modifyBy>
-                        <audit_modifyDate>2023-03-16 12:00:00</audit_modifyDate>
+                        <audit_modifyDate>2023-03-16T12:00:00</audit_modifyDate>
                     </producto>
                 </productos>
             </distribuidor>
@@ -137,9 +137,9 @@
         <fechaSubida>2023-04-01</fechaSubida>
         <estado>false</estado>
         <audit_createBy>alejandro.jaramillp</audit_createBy>
-        <audit_createdate>2023-03-10 12:00:00</audit_createdate>
+        <audit_createdate>2023-03-10T12:00:00</audit_createdate>
         <audit_modifyBy>santiago.cortes</audit_modifyBy>
-        <audit_modifyDate>2023-03-15 12:00:00</audit_modifyDate>
+        <audit_modifyDate>2023-03-15T12:00:00</audit_modifyDate>
 
         <distribuidores>
             <distribuidor nombre="Puerta del norte">
@@ -154,9 +154,9 @@
                         <formapago>Enfectivo</formapago>
                         <descripcion>Para realizar capuchino sabor arequipe y vainilla</descripcion>
                         <audit_createBy>admin</audit_createBy>
-                        <audit_createdate>2023-03-02 12:00:00</audit_createdate>
+                        <audit_createdate>2023-03-02T12:00:00</audit_createdate>
                         <audit_modifyBy>santiago.cortes</audit_modifyBy>
-                        <audit_modifyDate>2023-03-15 12:00:00</audit_modifyDate>
+                        <audit_modifyDate>2023-03-15T12:00:00</audit_modifyDate>
                     </producto>
                     <producto code="ING-002">
                         <nombre>Masas de Churro</nombre>
@@ -168,9 +168,9 @@
                         <descripcion>Masa procesado listo para fritar los churros</descripcion>
                         <proceso>Pendiente</proceso>
                         <audit_createBy>andres.fernandez</audit_createBy>
-                        <audit_createdate>2023-03-15 12:00:00</audit_createdate>
+                        <audit_createdate>2023-03-15T12:00:00</audit_createdate>
                         <audit_modifyBy>santiago.cortes</audit_modifyBy>
-                        <audit_modifyDate>2023-03-16 12:00:00</audit_modifyDate>
+                        <audit_modifyDate>2023-03-16T12:00:00</audit_modifyDate>
                     </producto>
                     <producto code="ING-003">
                         <nombre>Uniformes Talla M</nombre>
@@ -182,9 +182,9 @@
                         <descripcion>Uniforme nuevo para entregar a los nuevos empleados</descripcion>
                         <proceso>Pendiente</proceso>
                         <audit_createBy>andres.fernandez</audit_createBy>
-                        <audit_createdate>2023-03-15 12:00:00</audit_createdate>
+                        <audit_createdate>2023-03-15T12:00:00</audit_createdate>
                         <audit_modifyBy>santiago.cortes</audit_modifyBy>
-                        <audit_modifyDate>2023-03-16 12:00:00</audit_modifyDate>
+                        <audit_modifyDate>2023-03-16T12:00:00</audit_modifyDate>
                     </producto>
                     <producto code="ING-004">
                         <nombre>Galon de Aceite Vegetal</nombre>
@@ -196,9 +196,9 @@
                         <descripcion>Nuevo insumo</descripcion>
                         <proceso>Ejecutado</proceso>
                         <audit_createBy>andres.fernandez</audit_createBy>
-                        <audit_createdate>2023-03-15 12:00:00</audit_createdate>
+                        <audit_createdate>2023-03-15T12:00:00</audit_createdate>
                         <audit_modifyBy>santiago.cortes</audit_modifyBy>
-                        <audit_modifyDate>2023-03-16 12:00:00</audit_modifyDate>
+                        <audit_modifyDate>2023-03-16T12:00:00</audit_modifyDate>
                     </producto>
                 </productos>
             </distribuidor>
@@ -215,9 +215,9 @@
                         <descripcion>Contiene chocolate, vainilla y fresa</descripcion>
                         <proceso>Ejecutado</proceso>
                         <audit_createBy>admin</audit_createBy>
-                        <audit_createdate>2023-03-02 12:00:00</audit_createdate>
+                        <audit_createdate>2023-03-02T12:00:00</audit_createdate>
                         <audit_modifyBy>santiago.cortes</audit_modifyBy>
-                        <audit_modifyDate>2023-03-15 12:00:00</audit_modifyDate>
+                        <audit_modifyDate>2023-03-15T12:00:00</audit_modifyDate>
                     </producto>
                     <producto code="ING-002">
                         <nombre>Masas de Churro</nombre>
@@ -229,9 +229,9 @@
                         <descripcion>Masa procesado listo para fritar los churros</descripcion>
                         <proceso>Pendiente</proceso>
                         <audit_createBy>andres.fernandez</audit_createBy>
-                        <audit_createdate>2023-03-15 12:00:00</audit_createdate>
+                        <audit_createdate>2023-03-15T12:00:00</audit_createdate>
                         <audit_modifyBy>santiago.cortes</audit_modifyBy>
-                        <audit_modifyDate>2023-03-16 12:00:00</audit_modifyDate>
+                        <audit_modifyDate>2023-03-16T12:00:00</audit_modifyDate>
                     </producto>
                     <producto code="ING-006">
                         <nombre>Caja Presentacion Don Churro</nombre>
@@ -243,9 +243,9 @@
                         <descripcion>Cajas de presentacion para colocar los churros</descripcion>
                         <proceso>Pendiente</proceso>
                         <audit_createBy>andres.fernandez</audit_createBy>
-                        <audit_createdate>2023-03-15 12:00:00</audit_createdate>
+                        <audit_createdate>2023-03-15T12:00:00</audit_createdate>
                         <audit_modifyBy>santiago.cortes</audit_modifyBy>
-                        <audit_modifyDate>2023-03-16 12:00:00</audit_modifyDate>
+                        <audit_modifyDate>2023-03-16T12:00:00</audit_modifyDate>
                     </producto>
                     <producto code="ING-004">
                         <nombre>Galon de Aceite Vegetal</nombre>
@@ -257,9 +257,9 @@
                         <descripcion>Nuevo insumo</descripcion>
                         <proceso>Ejecutado</proceso>
                         <audit_createBy>andres.fernandez</audit_createBy>
-                        <audit_createdate>2023-03-15 12:00:00</audit_createdate>
+                        <audit_createdate>2023-03-15T12:00:00</audit_createdate>
                         <audit_modifyBy>santiago.cortes</audit_modifyBy>
-                        <audit_modifyDate>2023-03-16 12:00:00</audit_modifyDate>
+                        <audit_modifyDate>2023-03-16T12:00:00</audit_modifyDate>
                     </producto>
                 </productos>
             </distribuidor>
