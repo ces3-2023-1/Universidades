@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE prefaturas SYSTEM "Prefacturas.dtd">
+<prefaturas>
+    <prefactura nombre="Marzo 28 del 2023">
+        <fechaSubida>2023-03-01</fechaSubida>
+        <estado>true</estado>
+        <audit_createBy>alejandro.jaramillp</audit_createBy>
+        <audit_createdate>2023-03-10 12:00:00</audit_createdate>
+        <audit_modifyBy>santiago.cortes</audit_modifyBy>
+        <audit_modifyDate>2023-03-15 12:00:00</audit_modifyDate>
+
+        <distribuidores>
+            <distribuidor nombre="Viva Envigado">
+                <codigo>SCTR-001</codigo>
+                <productos>
+                    <producto code="ING-001">
+                        <nombre>Capsulas de cafes</nombre>
+                        <cantidad>50</cantidad>
+                        <unidad>UND</unidad>
+                        <totalNeto>4.500</totalNeto>
+                        <iva>0.15</iva>
+                        <formapago>Enfectivo</formapago>
+                        <descripcion>Para realizar capuchino sabor arequipe y vainilla</descripcion>
+                        <audit_createBy>admin</audit_createBy>
+                        <audit_createdate>2023-03-02 12:00:00</audit_createdate>
+                        <audit_modifyBy>santiago.cortes</audit_modifyBy>
+                        <audit_modifyDate>2023-03-15 12:00:00</audit_modifyDate>
+                    </producto>
+                    <producto code="ING-002">
+                        <nombre>Masas de Churro</nombre>
+                        <cantidad>1000</cantidad>
+                        <unidad>KG</unidad>
+                        <totalNeto>30.000</totalNeto>
+                        <iva>0.00</iva>
+                        <formapago>Ninguno</formapago>
+                        <descripcion>Masa procesado listo para fritar los churros</descripcion>
+                        <proceso>Pendiente</proceso>
+                        <audit_createBy>andres.fernandez</audit_createBy>
+                        <audit_createdate>2023-03-15 12:00:00</audit_createdate>
+                        <audit_modifyBy>santiago.cortes</audit_modifyBy>
+                        <audit_modifyDate>2023-03-16 12:00:00</audit_modifyDate>
+                    </producto>
+                    <producto code="ING-003">
+                        <nombre>Uniformes Talla M</nombre>
+                        <cantidad>2</cantidad>
+                        <unidad>UND</unidad>
+                        <totalNeto>150.000</totalNeto>
+                        <iva>0.00</iva>
+                        <formapago>Ninguno</formapago>
+                        <descripcion>Uniforme nuevo para entregar a los nuevos empleados</descripcion>
+                        <proceso>Pendiente</proceso>
+                        <audit_createBy>andres.fernandez</audit_createBy>
+                        <audit_createdate>2023-03-15 12:00:00</audit_createdate>
+                        <audit_modifyBy>santiago.cortes</audit_modifyBy>
+                        <audit_modifyDate>2023-03-16 12:00:00</audit_modifyDate>
+                    </producto>
+                    <producto code="ING-004">
+                        <nombre>Galon de Aceite Vegetal</nombre>
+                        <cantidad>5</cantidad>
+                        <unidad>UND</unidad>
+                        <totalNeto>30.000</totalNeto>
+                        <iva>0.15</iva>
+                        <formapago>Efectivo</formapago>
+                        <descripcion>Nuevo insumo</descripcion>
+                        <proceso>Ejecutado</proceso>
+                        <audit_createBy>andres.fernandez</audit_createBy>
+                        <audit_createdate>2023-03-15 12:00:00</audit_createdate>
+                        <audit_modifyBy>santiago.cortes</audit_modifyBy>
+                        <audit_modifyDate>2023-03-16 12:00:00</audit_modifyDate>
+                    </producto>
+                </productos>
+            </distribuidor>
+            <distribuidor nombre="Fabrica Central">
+                <codigo>SCTR-010</codigo>
+                <productos>
+                    <producto code="ING-005">
+                        <nombre>Caja Helado</nombre>
+                        <cantidad>10</cantidad>
+                        <unidad>UND</unidad>
+                        <totalNeto>80.000</totalNeto>
+                        <iva>0.15</iva>
+                        <formapago>Enfectivo</formapago>
+                        <descripcion>Contiene chocolate, vainilla y fresa</descripcion>
+                        <proceso>Ejecutado</proceso>
+                        <audit_createBy>admin</audit_createBy>
+                        <audit_createdate>2023-03-02 12:00:00</audit_createdate>
+                        <audit_modifyBy>santiago.cortes</audit_modifyBy>
+                        <audit_modifyDate>2023-03-15 12:00:00</audit_modifyDate>
+                    </producto>
+                    <producto code="ING-002">
+                        <nombre>Masas de Churro</nombre>
+                        <cantidad>10000</cantidad>
+                        <unidad>KG</unidad>
+                        <totalNeto>30.000</totalNeto>
+                        <iva>0.00</iva>
+                        <formapago>Ninguno</formapago>
+                        <descripcion>Masa procesado listo para fritar los churros</descripcion>
+                        <proceso>Pendiente</proceso>
+                        <audit_createBy>andres.fernandez</audit_createBy>
+                        <audit_createdate>2023-03-15 12:00:00</audit_createdate>
+                        <audit_modifyBy>santiago.cortes</audit_modifyBy>
+                        <audit_modifyDate>2023-03-16 12:00:00</audit_modifyDate>
+                    </producto>
+                    <producto code="ING-006">
+                        <nombre>Caja Presentacion Don Churro</nombre>
+                        <cantidad>100</cantidad>
+                        <unidad>UND</unidad>
+                        <totalNeto>5.000</totalNeto>
+                        <iva>0.00</iva>
+                        <formapago>Ninguno</formapago>
+                        <descripcion>Cajas de presentacion para colocar los churros</descripcion>
+                        <proceso>Pendiente</proceso>
+                        <audit_createBy>andres.fernandez</audit_createBy>
+                        <audit_createdate>2023-03-15 12:00:00</audit_createdate>
+                        <audit_modifyBy>santiago.cortes</audit_modifyBy>
+                        <audit_modifyDate>2023-03-16 12:00:00</audit_modifyDate>
+                    </producto>
+                    <producto code="ING-004">
+                        <nombre>Galon de Aceite Vegetal</nombre>
+                        <cantidad>20</cantidad>
+                        <unidad>UND</unidad>
+                        <totalNeto>30.000</totalNeto>
+                        <iva>0.15</iva>
+                        <formapago>Efectivo</formapago>
+                        <descripcion>Nuevo insumo</descripcion>
+                        <proceso>Ejecutado</proceso>
+                        <audit_createBy>andres.fernandez</audit_createBy>
+                        <audit_createdate>2023-03-15 12:00:00</audit_createdate>
+                        <audit_modifyBy>santiago.cortes</audit_modifyBy>
+                        <audit_modifyDate>2023-03-16 12:00:00</audit_modifyDate>
+                    </producto>
+                </productos>
+            </distribuidor>
+        </distribuidores>
+    </prefactura>
+    <prefactura nombre="Abril 20 del 2023">
+        <fechaSubida>2023-04-01</fechaSubida>
+        <estado>false</estado>
+        <audit_createBy>alejandro.jaramillp</audit_createBy>
+        <audit_createdate>2023-03-10 12:00:00</audit_createdate>
+        <audit_modifyBy>santiago.cortes</audit_modifyBy>
+        <audit_modifyDate>2023-03-15 12:00:00</audit_modifyDate>
+
+        <distribuidores>
+            <distribuidor nombre="Puerta del norte">
+                <codigo>SCTR-003</codigo>
+                <productos>
+                    <producto code="ING-001">
+                        <nombre>Capsulas de cafes</nombre>
+                        <cantidad>50</cantidad>
+                        <unidad>UND</unidad>
+                        <totalNeto>4.500</totalNeto>
+                        <iva>0.15</iva>
+                        <formapago>Enfectivo</formapago>
+                        <descripcion>Para realizar capuchino sabor arequipe y vainilla</descripcion>
+                        <audit_createBy>admin</audit_createBy>
+                        <audit_createdate>2023-03-02 12:00:00</audit_createdate>
+                        <audit_modifyBy>santiago.cortes</audit_modifyBy>
+                        <audit_modifyDate>2023-03-15 12:00:00</audit_modifyDate>
+                    </producto>
+                    <producto code="ING-002">
+                        <nombre>Masas de Churro</nombre>
+                        <cantidad>1000</cantidad>
+                        <unidad>KG</unidad>
+                        <totalNeto>30.000</totalNeto>
+                        <iva>0.00</iva>
+                        <formapago>Ninguno</formapago>
+                        <descripcion>Masa procesado listo para fritar los churros</descripcion>
+                        <proceso>Pendiente</proceso>
+                        <audit_createBy>andres.fernandez</audit_createBy>
+                        <audit_createdate>2023-03-15 12:00:00</audit_createdate>
+                        <audit_modifyBy>santiago.cortes</audit_modifyBy>
+                        <audit_modifyDate>2023-03-16 12:00:00</audit_modifyDate>
+                    </producto>
+                    <producto code="ING-003">
+                        <nombre>Uniformes Talla M</nombre>
+                        <cantidad>2</cantidad>
+                        <unidad>UND</unidad>
+                        <totalNeto>150.000</totalNeto>
+                        <iva>0.00</iva>
+                        <formapago>Ninguno</formapago>
+                        <descripcion>Uniforme nuevo para entregar a los nuevos empleados</descripcion>
+                        <proceso>Pendiente</proceso>
+                        <audit_createBy>andres.fernandez</audit_createBy>
+                        <audit_createdate>2023-03-15 12:00:00</audit_createdate>
+                        <audit_modifyBy>santiago.cortes</audit_modifyBy>
+                        <audit_modifyDate>2023-03-16 12:00:00</audit_modifyDate>
+                    </producto>
+                    <producto code="ING-004">
+                        <nombre>Galon de Aceite Vegetal</nombre>
+                        <cantidad>5</cantidad>
+                        <unidad>UND</unidad>
+                        <totalNeto>30.000</totalNeto>
+                        <iva>0.15</iva>
+                        <formapago>Efectivo</formapago>
+                        <descripcion>Nuevo insumo</descripcion>
+                        <proceso>Ejecutado</proceso>
+                        <audit_createBy>andres.fernandez</audit_createBy>
+                        <audit_createdate>2023-03-15 12:00:00</audit_createdate>
+                        <audit_modifyBy>santiago.cortes</audit_modifyBy>
+                        <audit_modifyDate>2023-03-16 12:00:00</audit_modifyDate>
+                    </producto>
+                </productos>
+            </distribuidor>
+            <distribuidor nombre="CC Santa fe">
+                <codigo>SCTR-004</codigo>
+                <productos>
+                    <producto code="ING-005">
+                        <nombre>Caja Helado</nombre>
+                        <cantidad>10</cantidad>
+                        <unidad>UND</unidad>
+                        <totalNeto>80.000</totalNeto>
+                        <iva>0.15</iva>
+                        <formapago>Enfectivo</formapago>
+                        <descripcion>Contiene chocolate, vainilla y fresa</descripcion>
+                        <proceso>Ejecutado</proceso>
+                        <audit_createBy>admin</audit_createBy>
+                        <audit_createdate>2023-03-02 12:00:00</audit_createdate>
+                        <audit_modifyBy>santiago.cortes</audit_modifyBy>
+                        <audit_modifyDate>2023-03-15 12:00:00</audit_modifyDate>
+                    </producto>
+                    <producto code="ING-002">
+                        <nombre>Masas de Churro</nombre>
+                        <cantidad>10000</cantidad>
+                        <unidad>KG</unidad>
+                        <totalNeto>30.000</totalNeto>
+                        <iva>0.00</iva>
+                        <formapago>Ninguno</formapago>
+                        <descripcion>Masa procesado listo para fritar los churros</descripcion>
+                        <proceso>Pendiente</proceso>
+                        <audit_createBy>andres.fernandez</audit_createBy>
+                        <audit_createdate>2023-03-15 12:00:00</audit_createdate>
+                        <audit_modifyBy>santiago.cortes</audit_modifyBy>
+                        <audit_modifyDate>2023-03-16 12:00:00</audit_modifyDate>
+                    </producto>
+                    <producto code="ING-006">
+                        <nombre>Caja Presentacion Don Churro</nombre>
+                        <cantidad>100</cantidad>
+                        <unidad>UND</unidad>
+                        <totalNeto>5.000</totalNeto>
+                        <iva>0.00</iva>
+                        <formapago>Ninguno</formapago>
+                        <descripcion>Cajas de presentacion para colocar los churros</descripcion>
+                        <proceso>Pendiente</proceso>
+                        <audit_createBy>andres.fernandez</audit_createBy>
+                        <audit_createdate>2023-03-15 12:00:00</audit_createdate>
+                        <audit_modifyBy>santiago.cortes</audit_modifyBy>
+                        <audit_modifyDate>2023-03-16 12:00:00</audit_modifyDate>
+                    </producto>
+                    <producto code="ING-004">
+                        <nombre>Galon de Aceite Vegetal</nombre>
+                        <cantidad>20</cantidad>
+                        <unidad>UND</unidad>
+                        <totalNeto>30.000</totalNeto>
+                        <iva>0.15</iva>
+                        <formapago>Efectivo</formapago>
+                        <descripcion>Nuevo insumo</descripcion>
+                        <proceso>Ejecutado</proceso>
+                        <audit_createBy>andres.fernandez</audit_createBy>
+                        <audit_createdate>2023-03-15 12:00:00</audit_createdate>
+                        <audit_modifyBy>santiago.cortes</audit_modifyBy>
+                        <audit_modifyDate>2023-03-16 12:00:00</audit_modifyDate>
+                    </producto>
+                </productos>
+            </distribuidor>
+        </distribuidores>
+    </prefactura>
+</prefaturas>
+

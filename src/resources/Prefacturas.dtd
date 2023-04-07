@@ -1,0 +1,30 @@
+<!ELEMENT prefaturas (prefactura+)>
+<!ELEMENT prefactura (fechaSubida, estado, audit_createBy, audit_createdate, audit_modifyBy, audit_modifyDate, distribuidores)>
+<!ATTLIST prefactura nombre #PCDATA>
+<!ELEMENT fechaSubida (#PCDATA)>
+<!ELEMENT estado (#PCDATA)>
+<!ELEMENT audit_createBy (#PCDATA)>
+<!ELEMENT audit_createdate (#PCDATA)>
+<!ELEMENT audit_modifyBy (#PCDATA)>
+<!ELEMENT audit_modifyDate (#PCDATA)>
+
+<!ELEMENT distribuidores (distribuidor+)>
+<!ELEMENT distribuidor (codigo, productos)>
+<!ATTLIST distribuidor nombre #PCDATA>
+<!ELEMENT codigo (#PCDATA)>
+
+<!ELEMENT productos (producto+)>
+<!ELEMENT producto (nombre,cantidad,unidad,totalNeto,iva,formapago,proceso,descripcion,audit_createBy,audit_createdate,audit_modifyBy,audit_modifyDate)>
+<!ATTLIST producto code #PCDATA>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT unidad (#PCDATA)>
+<!ELEMENT totalNeto (#PCDATA)>
+<!ELEMENT iva (#PCDATA)>
+<!ELEMENT formapago (#PCDATA)>
+<!ELEMENT proceso (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+
+
+
+
