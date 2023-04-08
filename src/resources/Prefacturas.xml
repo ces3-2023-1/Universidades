@@ -21,6 +21,7 @@
                         <iva>0.15</iva>
                         <formapago>Enfectivo</formapago>
                         <descripcion>Para realizar capuchino sabor arequipe y vainilla</descripcion>
+                        <proceso>Ejecutado</proceso>
                         <audit_createBy>admin</audit_createBy>
                         <audit_createdate>2023-03-02T12:00:00</audit_createdate>
                         <audit_modifyBy>santiago.cortes</audit_modifyBy>
@@ -34,7 +35,7 @@
                         <iva>0.00</iva>
                         <formapago>Ninguno</formapago>
                         <descripcion>Masa procesado listo para fritar los churros</descripcion>
-                        <proceso>Pendiente</proceso>
+                        <proceso>Ejecutado</proceso>
                         <audit_createBy>andres.fernandez</audit_createBy>
                         <audit_createdate>2023-03-15T12:00:00</audit_createdate>
                         <audit_modifyBy>santiago.cortes</audit_modifyBy>
@@ -48,7 +49,7 @@
                         <iva>0.00</iva>
                         <formapago>Ninguno</formapago>
                         <descripcion>Uniforme nuevo para entregar a los nuevos empleados</descripcion>
-                        <proceso>Pendiente</proceso>
+                        <proceso>Ejecutado</proceso>
                         <audit_createBy>andres.fernandez</audit_createBy>
                         <audit_createdate>2023-03-15T12:00:00</audit_createdate>
                         <audit_modifyBy>santiago.cortes</audit_modifyBy>
@@ -95,7 +96,7 @@
                         <iva>0.00</iva>
                         <formapago>Ninguno</formapago>
                         <descripcion>Masa procesado listo para fritar los churros</descripcion>
-                        <proceso>Pendiente</proceso>
+                        <proceso>Ejecutado</proceso>
                         <audit_createBy>andres.fernandez</audit_createBy>
                         <audit_createdate>2023-03-15T12:00:00</audit_createdate>
                         <audit_modifyBy>santiago.cortes</audit_modifyBy>
@@ -109,7 +110,7 @@
                         <iva>0.00</iva>
                         <formapago>Ninguno</formapago>
                         <descripcion>Cajas de presentacion para colocar los churros</descripcion>
-                        <proceso>Pendiente</proceso>
+                        <proceso>Ejecutado</proceso>
                         <audit_createBy>andres.fernandez</audit_createBy>
                         <audit_createdate>2023-03-15T12:00:00</audit_createdate>
                         <audit_modifyBy>santiago.cortes</audit_modifyBy>
@@ -153,6 +154,7 @@
                         <iva>0.15</iva>
                         <formapago>Enfectivo</formapago>
                         <descripcion>Para realizar capuchino sabor arequipe y vainilla</descripcion>
+                        <proceso>Pendiente</proceso>
                         <audit_createBy>admin</audit_createBy>
                         <audit_createdate>2023-03-02T12:00:00</audit_createdate>
                         <audit_modifyBy>santiago.cortes</audit_modifyBy>

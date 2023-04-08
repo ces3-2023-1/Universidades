@@ -1,5 +1,8 @@
 package co.edu.poli.ces3.models.autofact;
 
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class Productos extends  LogAudits {
     private String code;
     private String nombre;
@@ -10,6 +13,27 @@ public class Productos extends  LogAudits {
     private String formapago;
     private String proceso;
     private String descripcion;
+
+    @JsonCreator
+    public Productos(@JsonProperty("code") String code,
+                     @JsonProperty("nombre") String nombre,
+                     @JsonProperty("cantidad") int cantidad,
+                     @JsonProperty("unidad") String unidad,
+                     @JsonProperty("totalNeto") double totalNeto,
+                     @JsonProperty("iva") double iva,
+                     @JsonProperty("formapago") String formapago,
+                     @JsonProperty("proceso") String proceso,
+                     @JsonProperty("descripcion") String descripcion) {
+        this.code = code;
+        this.nombre = nombre;
+        this.cantidad = cantidad;
+        this.unidad = unidad;
+        this.totalNeto = totalNeto;
+        this.iva = iva;
+        this.formapago = formapago;
+        this.proceso = proceso;
+        this.descripcion = descripcion;
+    }
 
     public void setNombre(String nombre) {
         this.nombre = nombre;
