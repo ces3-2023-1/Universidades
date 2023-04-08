@@ -30,36 +30,38 @@ public class main {
 
             System.out.println("                                            Reportes Prefacturas Don Churro S.A.S                       ");
             for (Prefacturas p:listPrefactura){
-                System.out.println("---------------------------------------------------------------------------------------------------------------------------------");
+                System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------------");
                 System.out.printf("%-20s %-15s %-15s\n", "Nom. Prefactura", "Fec. Subida", "Estado");
                 String fecha = String.format("%tF", p.getFechaSubida());
                 System.out.printf("%-20s %-15s %-15s\n", p.getNombre(), fecha.toString(), p.isEstado());
-                System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+                System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
                 System.out.println("                                        Distribuidores y Productos  "+  p.getNombre()                                                   );
-                System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
-                System.out.printf("%-20s %-15s %-30s %-15s %-10s %-10s %-15s %-15s\n",
+                System.out.println("++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
+                System.out.printf("%-20s %-15s %-30s %-15s %-15s %-10s %-20s %-15s\n",
                         "Distribuidores",
                         "Codigo",
                         "Producto",
                         "Cantidad",
+                        "Unidad",
                         "Valor",
                         "IVA",
                         "Valor Total",
                         "Estado");
                 for (Distribuidores dist:p.getDistribuidores()){
                     for(Productos prod:dist.getProductos()){
-                        System.out.printf("%-20s %-15s %-30s %-15s %-10s %-10s %-15s %-15s\n",
+                        System.out.printf("%-20s %-15s %-30s %-15s %-15s %-15s %-10s %-20s %-15s\n",
                                 dist.getNombre(),
                                 prod.getCode(),
                                 prod.getNombre(),
                                 prod.getCantidad(),
-                                prod.getTotalNeto(),
+                                prod.getUnidad(),
+                                "$"+ prod.getTotalNeto() + " COP",
                                 prod.getIva() * 100 + "%",
-                                (prod.getTotalNeto() * prod.getCantidad()) + prod.getIva(),
+                                "$"+ (prod.getTotalNeto() * prod.getCantidad()) + " COP",
                                 prod.getProceso());
                     }
                 }
-                System.out.println("---------------------------------------------------------------------------------------------------------------------------------");
+                System.out.println("-----------------------------------------------------------------------------------------------------------------------------------------------------------");
             }
 
         }
