@@ -1,0 +1,20 @@
+<!ELEMENT pedidos (pedido+)>
+        <!ELEMENT pedido  (fecha_entrega, fecha_creacion, transportista,cliente, direccion,cometario? ,productos)>
+        <!ATTLIST pedido numero_pedido ID #REQUIRED>
+        <!ELEMENT fecha_entrega (#PCDATA)>
+        <!ELEMENT fecha_creacion (#PCDATA)>
+        <!ELEMENT transportista (#PCDATA)>
+        <!ELEMENT cliente (#PCDATA)>
+        <!ELEMENT direccion (#PCDATA)>
+        <!ELEMENT cometario (#PCDATA)>
+        <!ELEMENT productos (producto+)>
+        <!ELEMENT producto (nombre, precio, cantidad)>
+        <!ATTLIST producto cod_producto CDATA #REQUIRED
+                categoria (Suplemento | Medicamento | Naturista )  #REQUIRED >
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT precio (#PCDATA)>
+        <!ELEMENT cantidad (#PCDATA)>
+
+
+
+

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!--<!DOCTYPE estudiantes[<!ELEMENT estudiantes]> -->
+<!--
+    Comentario #1
+ -->
+<!DOCTYPE estudiantes SYSTEM "Estudiantes.dtd">
+
+<estudiantes>
+    <estudiante documento="DOC123" nacionalidad="EEUU" tipoDocumento="RE">
+        <edad>21</edad>
+        <comentario>
+            where are you going to land?
+            I should
+            you never can't hold me forever, i didn't sing up with you
+            i not a present for you friend to open, this boy is too young to sining the buuuuuuuuuuuuuuuusuusuususususss
+            Good bye yellow brigth road
+            canción
+            Acute: tildes
+            tu tut tu tu tu tu i say hi, whats going on?
+            oh no heyheyhyheyheyheyhey.
+            When are you gonna come down?
+        </comentario>
+        <materias>
+            <materia codRegistro="TMR032949234">
+                <codigo>ING20</codigo>
+                <nombreMat>Ingenieria Informatica</nombreMat>
+                <activo>true</activo>
+            </materia>
+            <materia codRegistro="TMPO234">
+                <codigo>CB21</codigo>
+                <nombreMat>Calculo 1</nombreMat>
+                <activo>false</activo>
+            </materia>
+        </materias>
+
+    </estudiante>
+    <estudiante documento="DOC12" nacionalidad="EEUU" tipoDocumento="CC">
+        <edad></edad>
+    </estudiante>
+</estudiantes>
+
+

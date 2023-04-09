@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE pedidos SYSTEM "Pedido.dtd">
+<pedidos>
+    <pedido numero_pedido="A123" >
+
+        <fecha_entrega>2023-04-08</fecha_entrega>
+        <fecha_creacion>2023-04-05</fecha_creacion>
+        <transportista>Servientrega</transportista>
+        <cliente>Cristiano Ronaldo</cliente>
+        <direccion>Cll 89</direccion>
+        <productos>
+            <producto cod_producto="2" categoria="Suplemento">
+                <nombre>Proteina</nombre>
+                <precio>70000</precio>
+                <cantidad>1</cantidad>
+            </producto>
+        </productos>
+    </pedido>
+    <pedido numero_pedido="A12">
+        <fecha_entrega>2023-04-08</fecha_entrega>
+        <fecha_creacion>2023-04-03</fecha_creacion>
+        <transportista>Diego Villegas</transportista>
+        <cliente>Juan Perez</cliente>
+        <direccion>Regional 120A</direccion>
+        <cometario>Entrega importante</cometario>
+        <productos>
+            <producto cod_producto="P1" categoria="Medicamento">
+                <nombre>Gotas Ojos</nombre>
+                <precio>3500</precio>
+                <cantidad>2</cantidad>
+            </producto>
+            <producto cod_producto="2" categoria="Suplemento">
+                <nombre>Proteina</nombre>
+                <precio>70000</precio>
+                <cantidad>1</cantidad>
+            </producto>
+            <producto cod_producto="3" categoria="Naturista">
+                <nombre>Litio</nombre>
+                <precio>20000</precio>
+                <cantidad>1</cantidad>
+            </producto>
+        </productos>
+
+    </pedido>
+</pedidos>
