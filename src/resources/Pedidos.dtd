@@ -1,0 +1,15 @@
+<!ELEMENT pedidos (pedido+)>
+<!ELEMENT pedido (direccion,items)>
+<!ATTLIST pedido orden CDATA #REQUIRED>
+<!ATTLIST pedido fechaOrden CDATA #IMPLIED>
+<!ELEMENT direccion (street,ciudad,departamento,pais)>
+<!ELEMENT street (#PCDATA)>
+<!ELEMENT ciudad (#PCDATA)>
+<!ELEMENT departamento (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT items (item+)>
+<!ELEMENT item (nombreProducto,cantidad,precio)>
+<!ELEMENT nombreProducto (#PCDATA)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT precio (#PCDATA)>
+<!ATTLIST item idProducto CDATA #REQUIRED>
