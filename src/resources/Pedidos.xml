@@ -1,0 +1,282 @@
+<!DOCTYPE pedidos SYSTEM "pedidos.dtd">
+<pedidos>
+    <pedido codigo="P001" prioridad="alta">
+        <fechaCreacion>2023-04-09</fechaCreacion>
+        <estado>pendiente</estado>
+        <total>82800.00</total>
+        <productos>
+            <producto>
+                <nombreProducto>OMEGA - 3 1000 MG X 50 SOFT</nombreProducto>
+                <cantidad>2</cantidad>
+                <precio>28900.00</precio>
+            </producto>
+            <producto>
+                <nombreProducto>GARLIC OIL 1500 MG X 100 SOFT</nombreProducto>
+                <cantidad>1</cantidad>
+                <precio>25000.00</precio>
+            </producto>
+        </productos>
+        <clientes>
+            <cliente documento="C71020659" tipoDocumento="CC">
+                <nombreCliente>EMILSON MARTINEZ CORDOBA</nombreCliente>
+                <celular>3189067789</celular>
+                <correo>tamayohenrry89@gmail.com</correo>
+                <direccion>calle 38b #31-25 Barrio La Milagrosa</direccion>
+            </cliente>
+        </clientes>
+        <direccionPedido>calle 38b #31-25 Barrio La Milagrosa</direccionPedido>
+    </pedido>
+    <pedido codigo="P002" prioridad="baja">
+        <fechaCreacion>2023-04-01</fechaCreacion>
+        <estado>completado</estado>
+        <total>41200.00</total>
+        <productos>
+            <producto>
+                <nombreProducto>SPIRULINA 800 MG X 100 TAB</nombreProducto>
+                <cantidad>1</cantidad>
+                <precio>41200.00</precio>
+            </producto>
+        </productos>
+        <clientes>
+            <cliente documento="C21744653" tipoDocumento="CC">
+                <nombreCliente>ANNDERSSON CARDONA ZAPATA</nombreCliente>
+                <telefono>6043284118</telefono>
+                <celular>3189067789</celular>
+                <correo>aurovage1982@gmail.com</correo>
+                <direccion>Colinas de Oriente apartamento 304</direccion>
+            </cliente>
+        </clientes>
+        <direccionPedido>Colinas de Oriente apartamento 304</direccionPedido>
+    </pedido>
+    <pedido codigo="P003" prioridad="media">
+        <fechaCreacion>2023-04-09</fechaCreacion>
+        <estado>enviado</estado>
+        <total>67500.00</total>
+        <productos>
+            <producto>
+                <nombreProducto>Vit E 400 60 sg + Caléndula Loción Facial 50 ml </nombreProducto>
+                <cantidad>1</cantidad>
+                <precio>67500.00</precio>
+            </producto>
+        </productos>
+        <clientes>
+            <cliente documento="C1027961192" tipoDocumento="CC">
+                <nombreCliente>JUAN DAVID PADILLA JIMENEZ</nombreCliente>
+                <celular>3224567690</celular>
+                <correo>juandapaji456@gmail.com</correo>
+                <direccion>Carrera 39 # 55-19</direccion>
+            </cliente>
+        </clientes>
+        <direccionPedido>Carrera 39 # 55-19</direccionPedido>
+    </pedido>
+    <pedido codigo="P004" prioridad="alta">
+        <fechaCreacion>2023-04-09</fechaCreacion>
+        <estado>enviado</estado>
+        <total>182700.00</total>
+        <productos>
+            <producto>
+                <nombreProducto>Aceite Esencial Bhealthy 10 ml </nombreProducto>
+                <cantidad>1</cantidad>
+                <precio>69900.00</precio>
+            </producto>
+            <producto>
+                <nombreProducto>Ajonjoli Semila 500gr </nombreProducto>
+                <cantidad>3</cantidad>
+                <precio>18000.00</precio>
+            </producto>
+            <producto>
+                <nombreProducto>Batido Verde 160gr </nombreProducto>
+                <cantidad>1</cantidad>
+                <precio>35200.00</precio>
+            </producto>
+            <producto>
+                <nombreProducto>Batido rojo 210gr </nombreProducto>
+                <cantidad>1</cantidad>
+                <precio>23600.00</precio>
+            </producto>
+        </productos>
+        <clientes>
+            <cliente documento="P190956789526745" tipoDocumento="PEP">
+                <nombreCliente>YESENIA HERNANDEZ NARANJO</nombreCliente>
+                <celular>3117679056</celular>
+                <correo>Yessenher98@hotmail.com</correo>
+                <direccion>Carrera 65 # 16a-43</direccion>
+            </cliente>
+        </clientes>
+        <direccionPedido>Carrera 65 # 16a-43</direccionPedido>
+    </pedido>
+    <pedido codigo="P005" prioridad="baja">
+        <fechaCreacion>2023-04-09</fechaCreacion>
+        <estado>enviado</estado>
+        <total>126200.00</total>
+        <productos>
+            <producto>
+                <nombreProducto>Apetinat 120ml </nombreProducto>
+                <cantidad>1</cantidad>
+                <precio>29800.00</precio>
+            </producto>
+            <producto>
+                <nombreProducto>Proteina Chocolate 800gr </nombreProducto>
+                <cantidad>1</cantidad>
+                <precio>96400.00</precio>
+            </producto>
+        </productos>
+        <clientes>
+            <cliente documento="C1001242609" tipoDocumento="CC">
+                <nombreCliente>YESID DAVID SERNA GAVIRIA</nombreCliente>
+                <celular>3014983692</celular>
+                <correo>thedavid708@hotmail.com</correo>
+                <direccion>Calle 65 # 189-43</direccion>
+            </cliente>
+        </clientes>
+        <direccionPedido>Calle 65 # 189-43</direccionPedido>
+    </pedido>
+    <pedido codigo="P006" prioridad="media">
+        <fechaCreacion>2023-04-09</fechaCreacion>
+        <estado>completo</estado>
+        <total>151500.00</total>
+        <productos>
+            <producto>
+                <nombreProducto>Extracto de ajo 20ml</nombreProducto>
+                <cantidad>2</cantidad>
+                <precio>23700.00</precio>
+            </producto>
+            <producto>
+                <nombreProducto>Te verde en bolsitas</nombreProducto>
+                <cantidad>3</cantidad>
+                <precio>34700</precio>
+            </producto>
+        </productos>
+        <clientes>
+            <cliente documento="C70811575" tipoDocumento="CC">
+                <nombreCliente>DIEGO ALONSO MESA VANEGAS</nombreCliente>
+                <celular>3028904529</celular>
+                <correo>diegoamv56@hotmail.com</correo>
+                <direccion>carrera 75 # 25-343</direccion>
+            </cliente>
+        </clientes>
+        <direccionPedido>carrera 75 # 25-343</direccionPedido>
+    </pedido>
+    <pedido codigo="P007" prioridad="alta">
+        <fechaCreacion>2023-04-10</fechaCreacion>
+        <estado>completo</estado>
+        <total>35000.00</total>
+        <productos>
+            <producto>
+                <nombreProducto>Jugo de Aloe Vera 500ml</nombreProducto>
+                <cantidad>3</cantidad>
+                <precio>10000.00</precio>
+            </producto>
+            <producto>
+                <nombreProducto>Hojas de Moringa en polvo 100g</nombreProducto>
+                <cantidad>2</cantidad>
+                <precio>2500.00</precio>
+            </producto>
+        </productos>
+        <clientes>
+            <cliente documento="C39416559" tipoDocumento="CC">
+                <nombreCliente>FLOR VIDENIS VILLALBA GUTIERREZ</nombreCliente>
+                <celular>3028904529</celular>
+                <correo>villalbavide67@gmail.com</correo>
+                <direccion>carrera 25a # 46-106</direccion>
+            </cliente>
+        </clientes>
+        <direccionPedido>carrera 25a # 46-106</direccionPedido>
+    </pedido>
+    <pedido codigo="P008" prioridad="baja">
+        <fechaCreacion>2023-04-09</fechaCreacion>
+        <estado>completo</estado>
+        <total>130000.00</total>
+        <productos>
+            <producto>
+                <nombreProducto>Proteína de suero de leche 1kg</nombreProducto>
+                <cantidad>4</cantidad>
+                <precio>25000.00</precio>
+            </producto>
+            <producto>
+                <nombreProducto>Frutos secos orgánicos surtidos 500g</nombreProducto>
+                <cantidad>2</cantidad>
+                <precio>15000.00</precio>
+            </producto>
+        </productos>
+        <clientes>
+            <cliente documento="C10007830" tipoDocumento="CC">
+                <nombreCliente>DANILO DE JESUS ZAPATA CARRILLO</nombreCliente>
+                <celular>3506742017</celular>
+                <correo>danizapata56@gmail.com</correo>
+                <direccion>carrera 50 # 38-20</direccion>
+            </cliente>
+        </clientes>
+        <direccionPedido>carrera 50 # 38-206</direccionPedido>
+    </pedido>
+    <pedido codigo="P009" prioridad="alta">
+        <fechaCreacion>2023-04-09</fechaCreacion>
+        <estado>enviado</estado>
+        <total>206800.00</total>
+        <productos>
+            <producto>
+                <nombreProducto>Colagmin plus 200 g</nombreProducto>
+                <cantidad>4</cantidad>
+                <precio>51700.00</precio>
+            </producto>
+        </productos>
+        <clientes>
+            <cliente documento="C71242054" tipoDocumento="CC">
+                <nombreCliente>VICTOR ANDRES MENDOZA ARARAT</nombreCliente>
+                <celular>3048907289</celular>
+                <correo>vandres1999@gmail.com</correo>
+                <direccion>carrera 67 # 38-60</direccion>
+            </cliente>
+        </clientes>
+        <direccionPedido>carrera 67 # 38-60</direccionPedido>
+    </pedido>
+    <pedido codigo="P010" prioridad="baja">
+        <fechaCreacion>2023-04-09</fechaCreacion>
+        <estado>pendiente</estado>
+        <total>48300.00</total>
+        <productos>
+            <producto>
+                <nombreProducto>Cloruro de magnesio 60 tabletas</nombreProducto>
+                <cantidad>1</cantidad>
+                <precio>22700.00</precio>
+            </producto>
+            <producto>
+                <nombreProducto>Alcachofa compuesta 100 cápsulas</nombreProducto>
+                <cantidad>1</cantidad>
+                <precio>25600.00</precio>
+            </producto>
+        </productos>
+        <clientes>
+            <cliente documento="C1077426815" tipoDocumento="CC">
+                <nombreCliente>OSCAR EMIRO CUESTA CORDOBA</nombreCliente>
+                <telefono>6043238870</telefono>
+                <celular>3204990211</celular>
+                <correo>oemiro78@gmail.com</correo>
+                <direccion>Carrera 11 #78-41 interior 144</direccion>
+            </cliente>
+        </clientes>
+        <direccionPedido>Carrera 11 #78-41 interior 144</direccionPedido>
+    </pedido>
+    <pedido codigo="P011" prioridad="baja">
+        <fechaCreacion>2023-04-09</fechaCreacion>
+        <estado>proceso</estado>
+        <total>173400.00</total>
+        <productos>
+            <producto>
+                <nombreProducto>kit vitamina c + zinc y propoleo en miel de abejas</nombreProducto>
+                <cantidad>4</cantidad>
+                <precio>43350.00</precio>
+            </producto>
+        </productos>
+        <clientes>
+            <cliente documento="C1045490685" tipoDocumento="CC">
+                <nombreCliente>EVER MANUEL MORENO CHIQUILLO</nombreCliente>
+                <celular>3024000960</celular>
+                <correo>manumoreno09@gmail.com</correo>
+                <direccion>Carrera 51 #56-77</direccion>
+            </cliente>
+        </clientes>
+        <direccionPedido>Carrera 51 #56-77</direccionPedido>
+    </pedido>
+</pedidos>
+

@@ -1,0 +1,22 @@
+<!ELEMENT pedidos (pedido*)>
+        <!ELEMENT pedido (fechaCreacion+, estado+, total+, productos+, clientes+, direccionPedido+)>
+        <!ATTLIST pedido codigo ID #REQUIRED
+                prioridad (alta | media | baja) #IMPLIED>
+        <!ELEMENT fechaCreacion (#PCDATA)>
+        <!ELEMENT estado (#PCDATA)>
+        <!ELEMENT total (#PCDATA)>
+        <!ELEMENT productos (producto+)>
+        <!ELEMENT producto (nombreProducto+, cantidad+, precio+)>
+        <!ELEMENT nombreProducto (#PCDATA)>
+        <!ELEMENT cantidad (#PCDATA)>
+        <!ELEMENT precio (#PCDATA)>
+        <!ELEMENT direccionPedido (#PCDATA)>
+        <!ELEMENT clientes (cliente+)>
+        <!ELEMENT cliente (nombreCliente+, telefono?, celular+, correo+, direccion+)>
+        <!ATTLIST cliente documento ID #REQUIRED
+        tipoDocumento (CC | CE | PEP | PPT) #REQUIRED>
+        <!ELEMENT nombreCliente (#PCDATA)>
+        <!ELEMENT telefono (#PCDATA)>
+        <!ELEMENT celular (#PCDATA)>
+        <!ELEMENT correo (#PCDATA)>
+        <!ELEMENT direccion (#PCDATA)>
