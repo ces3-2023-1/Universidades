@@ -1,0 +1,25 @@
+
+<!DOCTYPE servicios SYSTEM "Servicio.dtd" >
+
+<servicios>
+    <servicio>
+        <nombre>Peluqueria</nombre>
+        <valor>20000</valor>
+        <activo>false</activo>
+    </servicio>
+    <servicio>
+        <nombre>Barberia</nombre>
+        <valor>10000</valor>
+        <activo>false</activo>
+    </servicio>
+    <servicio>
+        <nombre>Uñas</nombre>
+        <valor>40000</valor>
+        <activo>true</activo>
+    </servicio>
+    <servicio>
+        <nombre>Pestañas</nombre>
+        <valor>35000</valor>
+        <activo>true</activo>
+    </servicio>
+</servicios>

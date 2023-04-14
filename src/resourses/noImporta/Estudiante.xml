@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 
-<!DOCTYPE estudiantes SYSTEM "Estudiante.dtd" >
+<!DOCTYPE estudiantes SYSTEM "D:\Users\ejruizca\IdeaProjects\Universidades\src\resourses\noImporta\Estudiante.dtd" >
 
 <estudiantes>
     <!-- Este es un comentario -->

@@ -1,0 +1,5 @@
+<!ELEMENT servicios (servicio+)>
+        <!ELEMENT servicio (nombre,valor,activo)>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT valor (#PCDATA)>
+        <!ELEMENT activo (#PCDATA)>
