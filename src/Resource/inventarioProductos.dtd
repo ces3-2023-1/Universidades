@@ -1,0 +1,9 @@
+<!ELEMENT inventarioProductos (inventarioproducto+)>
+<!ELEMENT inventarioproducto (nombreProducto+,cantidadProductos+,estadoProducto?,vendedorProducto+,empresa+)>
+<!ELEMENT estadoProducto (#PCDATA)>
+<!ELEMENT nombreProducto (#PCDATA)>
+<!ELEMENT cantidadProductos (#PCDATA)>
+<!ATTLIST inventarioproducto idProducto CDATA #REQUIRED >
+<!ELEMENT vendedorProducto (#PCDATA)>
+<!ELEMENT empresa (#PCDATA)>
+

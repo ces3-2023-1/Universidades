@@ -1,0 +1,26 @@
+<!DOCTYPE inventarioProductos SYSTEM "inventarioProductos.dtd">
+
+<inventarioProductos>
+    <inventarioproducto idProducto = "01" >
+        <nombreProducto>Gomina Ego</nombreProducto>
+        <cantidadProductos>0</cantidadProductos>
+        <estadoProducto>False</estadoProducto>
+        <vendedorProducto>Brayan Suarez</vendedorProducto>
+        <empresa>La gomina</empresa>
+
+    </inventarioproducto>
+    <inventarioproducto idProducto = "02" >
+        <nombreProducto>Bachue</nombreProducto>
+        <cantidadProductos>100</cantidadProductos>
+        <estadoProducto>True</estadoProducto>
+        <vendedorProducto>Brayan Suarez</vendedorProducto>
+        <empresa>La gomina</empresa>
+    </inventarioproducto>
+    <inventarioproducto idProducto = "02" >
+        <nombreProducto>Dorco</nombreProducto>
+        <cantidadProductos>100</cantidadProductos>
+        <estadoProducto>True</estadoProducto>
+        <vendedorProducto>Elian Ruiz</vendedorProducto>
+        <empresa>Caseritas</empresa>
+    </inventarioproducto>
+</inventarioProductos>
