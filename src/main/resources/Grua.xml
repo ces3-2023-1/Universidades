@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- <!DOCTYPE grua[]> -->
+<!DOCTYPE gruas SYSTEM "Grua.dtd">
+<gruas>
+    <!--
+    Este es la funcionalidad del PPI por el modulo PPI
+    -->
+    <grua  cedula="24235354" vehiculo="Moto" >
+
+        <nombres>Monica</nombres>
+        <apellido>Vasquez</apellido>
+        <direccion>Cr 44 #25 - 13</direccion>
+        <urgencia> Prioridad 2 </urgencia>
+        <descripcion>Sin luces</descripcion>
+
+    </grua>
+
+    <grua   cedula="9214424" vehiculo="Carro" >
+
+        <nombres>Pepe</nombres>
+        <apellido>Lopez</apellido>
+        <direccion>Cll 9 #21-1</direccion>
+        <urgencia> Prioridad 1 </urgencia>
+<descripcion>Sin llanta de repuesto</descripcion>
+    </grua>
+
+    <grua  cedula="35435345435" vehiculo="Carro" >
+
+        <nombres>Andres</nombres>
+        <apellido>Estrada</apellido>
+        <direccion>TV 64 #1 -77</direccion>
+        <urgencia> Prioridad 3 </urgencia>
+<descripcion>Sin gasolina</descripcion>
+
+    </grua>
+
+</gruas>

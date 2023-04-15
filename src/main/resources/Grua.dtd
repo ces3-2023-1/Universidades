@@ -1,0 +1,10 @@
+<!ELEMENT gruas (grua*)>
+<!ELEMENT grua (urgencia*, nombres+, direccion*, apellido?, descripcion+)>
+<!ATTLIST grua vehiculo CDATA #REQUIRED
+        cedula  CDATA #REQUIRED
+
+        <!ELEMENT descripcion (#PCDATA) >
+        <!ELEMENT direccion (#PCDATA) >
+        <!ELEMENT nombres (#PCDATA) >
+        <!ELEMENT apellido  (#PCDATA) >
+        <!ELEMENT urgencia (#PCDATA)>
