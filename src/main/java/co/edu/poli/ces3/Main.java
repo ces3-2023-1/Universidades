@@ -1,7 +1,7 @@
 package co.edu.poli.ces3;
 
-import co.edu.poli.ces3.models.Item;
-import co.edu.poli.ces3.models.Order;
+import co.edu.poli.ces3.models.Category;
+import co.edu.poli.ces3.models.Product;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
@@ -16,20 +16,26 @@ public class Main {
     public static void main(String[] args) {
         try{
             ObjectMapper mapper = new XmlMapper();
-            InputStream inputStream = new FileInputStream(new File("src\\resources\\Pedidos.xml"));
-            TypeReference<List<Order>> typeReference = new TypeReference<List<Order>>(){};
-            List<Order> orders = mapper.readValue(inputStream, typeReference);
+            InputStream inputStream = new FileInputStream(new File("src\\resources\\Productos.xml"));
+            TypeReference<List<Product>> typeReference = new TypeReference<List<Product>>(){};
+            List<Product> Products = mapper.readValue(inputStream, typeReference);
 
 
-            for (Order x: orders) {
-                System.out.println("**********************");
-                System.out.println("Numero de orden: " + x.getOrden());
-                System.out.println("Direccion: " + x.getDireccion().getStreet());
-                System.out.println("Productos:");
-                for (Item y: x.getItems()){
-                    System.out.println("-"+ y.getNombreProducto());
-                }
-                System.out.println("**********************");
+            System.out.println("Productos:");
+            for (Product pr : Products){
+
+                System.out.println("------------------------------");
+                System.out.println("nombre= "+pr.getNombre());
+                System.out.println("precio compra= "+pr.getPreciocompra());
+                System.out.println("precio venta= "+pr.getPrecioventa());
+                System.out.println("stock= "+pr.getStock());
+                System.out.println("ventas= "+pr.getVentas());
+                System.out.println("fecha actualizacion= "+pr.getFechaactualizacion());
+                System.out.println("categoria:");
+                System.out.println("        * id categoria= "+pr.getCategoria().getIdcategoria());
+                System.out.println("        * nombre categoria= "+pr.getCategoria().getNombrecategoria());
+                System.out.println("        * fecha creacion= "+pr.getCategoria().getFechacreacion());
+                System.out.println("------------------------------");
             }
 
             //System.out.println(System. getProperty("user.dir"));

@@ -1,0 +1,13 @@
+<!ELEMENT productos (producto*)>
+<!ELEMENT producto (nombre?,preciocompra,precioventa,stock,ventas,fechaactualizacion,categoria?)>
+<!ATTLIST producto codigo CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT preciocompra (#PCDATA)>
+<!ELEMENT precioventa (#PCDATA)>
+<!ELEMENT stock (#PCDATA)>
+<!ELEMENT ventas (#PCDATA)>
+<!ELEMENT fechaactualizacion (#PCDATA)>
+<!ELEMENT categoria (nombrecategoria?, fechacreacion)>
+<!ATTLIST categoria idcategoria ID #REQUIRED>
+<!ELEMENT fechacreacion (#PCDATA)>
+<!ELEMENT nombrecategoria (#PCDATA)>

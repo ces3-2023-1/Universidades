@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE productos SYSTEM "Productos.dtd">
+<productos>
+    <producto codigo="A99503">
+        <nombre>busoadidas</nombre>
+        <preciocompra>25000</preciocompra>
+        <precioventa>30000</precioventa>
+        <stock>10</stock>
+        <ventas>5</ventas>
+        <fechaactualizacion>2022-12-23</fechaactualizacion>
+        <categoria idcategoria="L1">
+            <nombrecategoria>buso</nombrecategoria>
+            <fechacreacion>2022-12-11</fechacreacion>
+        </categoria>
+    </producto>
+    <producto codigo="WMJ29F">
+        <nombre>chaquetadecuero</nombre>
+        <preciocompra>55000</preciocompra>
+        <precioventa>70000</precioventa>
+        <stock>20</stock>
+        <ventas>4</ventas>
+        <fechaactualizacion>2022-12-30</fechaactualizacion>
+        <categoria idcategoria="L2">
+            <nombrecategoria>Chaqueta</nombrecategoria>
+            <fechacreacion>2022-12-11</fechacreacion>
+        </categoria>
+    </producto>
+    <producto codigo="AZX400">
+        <nombre>sudaderacolorrojo</nombre>
+        <preciocompra>25000</preciocompra>
+        <precioventa>30000</precioventa>
+        <stock>48</stock>
+        <ventas>12</ventas>
+        <fechaactualizacion>2022-12-23</fechaactualizacion>
+        <categoria idcategoria="L3">
+            <nombrecategoria>sudadera</nombrecategoria>
+            <fechacreacion>2022-12-11</fechacreacion>
+        </categoria>
+    </producto>
+    <producto codigo="XYZ45D">
+        <nombre>boxerscalvinclein</nombre>
+        <preciocompra>15000</preciocompra>
+        <precioventa>25000</precioventa>
+        <stock>40</stock>
+        <ventas>15</ventas>
+        <fechaactualizacion>2022-12-26</fechaactualizacion>
+        <categoria idcategoria="L4">
+            <nombrecategoria>boxers</nombrecategoria>
+            <fechacreacion>2022-12-11</fechacreacion>
+        </categoria>
+    </producto>
+</productos>
