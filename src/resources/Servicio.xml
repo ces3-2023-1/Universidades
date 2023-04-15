@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- <!DOCTYPE grua[]> -->
+<!DOCTYPE servicios SYSTEM "Servicio.dtd">
+<servicios>
+    <!--
+    Este es la funcionalidad del PPI por el modulo GRUA
+    -->
+    <servicio cedula="1152715464" vehiculo="Moto" descripcion="Cadena rota">
+
+        <nombre>Esteban</nombre>
+        <apellido>Marin</apellido>
+        <direccion>Cr 75 #45 - 21</direccion>
+
+    </servicio>
+
+    <servicio cedula="9905051178" vehiculo="Carro" descripcion="Sin bateria">
+
+        <nombre>Dobby</nombre>
+        <apellido>Marin</apellido>
+        <direccion>Cll 3 #78-100</direccion>
+
+    </servicio>
+
+    <servicio cedula="10003678446" vehiculo="Carro" descripcion="Dos llanta de adelante chuzada">
+
+        <nombre>Sebastian</nombre>
+        <apellido>Rua</apellido>
+        <direccion>TV 100 #55 - 78</direccion>
+
+    </servicio>
+
+</servicios>

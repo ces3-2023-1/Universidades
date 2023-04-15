@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!-- <!DOCTYPE estudiantes[]> -->
+<!DOCTYPE estudiantes SYSTEM "Estudiantes.dtd">
+<estudiantes>
+    <!--
+    Este es un comentario
+    -->
+    <estudiante documento="DOC123" nacionalidad="EEUU" tipoDocumento="RC">
+        <edad>21</edad>
+        <comentario>
+            fksalkfaskdfklasdfkadsfasd
+            fdaskdjfaksdfkasdfasdf
+            dsafjkasdfaksdfkajdksf
+            &lt;
+        </comentario>
+        <materias>
+            <materia codRegistro="TMR032949234">
+                <codigo>ING20</codigo>
+                <nombreMat>Ingenieria Informatica</nombreMat>
+                <activo>true</activo>
+            </materia>
+            <materia codRegistro="TMPO234">
+                <codigo>CB21</codigo>
+                <nombreMat>Calculo 1</nombreMat>
+                <activo>false</activo>
+            </materia>
+        </materias>
+    </estudiante>
+
+    <estudiante documento="TI123" nacionalidad="CO" tipoDocumento="RC"></estudiante>
+</estudiantes>

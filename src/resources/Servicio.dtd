@@ -1,0 +1,15 @@
+<!ELEMENT servicios (servicio*)>
+        <!ELEMENT servicio (nombre+, apellido?,direccion*)>
+        <!ATTLIST servicio vehiculo ID #REQUIRED
+                cedula  CDATA #REQUIRED
+                descripcion (Sin bateria | Cadena rota | Dos llanta de adelante chuzada) #REQUIRED>
+
+        <!ELEMENT direccion (#PCDATA) >
+        <!ELEMENT nombre (#PCDATA) >
+        <!ELEMENT apellido  (#PCDATA) >
+
+
+
+
+
+
