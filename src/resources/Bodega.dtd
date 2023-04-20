@@ -1,0 +1,9 @@
+<!ELEMENT bodegas (bodega*)><!--Rama-->
+        <!ELEMENT bodega (departamento+, ciudad+, nombre+, direccion+, encargado+, telefono?)><!--atributos de la bodega-->
+        <!ATTLIST bodega id_bodega CDATA #REQUIRED>
+        <!ELEMENT departamento (#PCDATA)>
+        <!ELEMENT ciudad (#PCDATA)>
+        <!ELEMENT nombre (#PCDATA)>
+        <!ELEMENT direccion (#PCDATA)>
+        <!ELEMENT encargado (#PCDATA)>
+        <!ELEMENT telefono (#PCDATA)>

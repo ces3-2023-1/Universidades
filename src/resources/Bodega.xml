@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE bodegas SYSTEM "Bodega.dtd">
+<bodegas>
+    <bodega id_bodega="ABC12354">
+        <departamento>Antioquia</departamento>
+        <ciudad>Medellin</ciudad>
+        <nombre>Bodega Main</nombre>
+        <direccion>calle 1 # 20 40</direccion>
+        <encargado>Carlos Perez</encargado>
+        <telefono>25044687</telefono>
+    </bodega>
+    <bodega id_bodega="FDS546576">
+        <departamento>Cundinamarca</departamento>
+        <ciudad>Bogota</ciudad>
+        <nombre>Bodega mater</nombre>
+        <direccion>calle 30 # 40 80</direccion>
+        <encargado>Andrea Serna</encargado>
+        <telefono>3860518</telefono>
+    </bodega>
+    <bodega id_bodega="FDSG1234567">
+        <departamento>Meta</departamento>
+        <ciudad>Huila</ciudad>
+        <nombre>Bodega second</nombre>
+        <direccion>calle 3 # 80 38</direccion>
+        <encargado>Pedro cifuentes</encargado>
+        <telefono>2507844</telefono>
+    </bodega>
+</bodegas>
