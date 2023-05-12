@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="estudiantes" type="estudiantesType">
+    <xs:annotation>
+      <xs:documentation> &lt;!DOCTYPE estudiantes[]>  &lt;!DOCTYPE estudiantes SYSTEM "Estudiantes.dtd"> </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="materiaType">
+    <xs:sequence>
+      <xs:element name="codigo">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="ING20"/>
+            <xs:enumeration value="CB21"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="nombreMat">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Ingenieria Informatica"/>
+            <xs:enumeration value="Calculo 1"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="activo">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="true"/>
+            <xs:enumeration value="false"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="codRegistro" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="materiasType">
+    <xs:sequence>
+      <xs:element type="materiaType" name="materia" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="estudianteType" mixed="true">
+    <xs:sequence>
+      <xs:element type="xs:string" name="edad" minOccurs="0"/>
+      <xs:element type="xs:string" name="comentario" minOccurs="0"/>
+      <xs:element type="materiasType" name="materias" minOccurs="0"/>
+    </xs:sequence>
+    <xs:attribute type="xs:string" name="documento" use="optional"/>
+    <xs:attribute type="xs:string" name="nacionalidad" use="optional"/>
+    <xs:attribute type="xs:string" name="tipoDocumento" use="optional"/>
+  </xs:complexType>
+  <xs:complexType name="estudiantesType">
+    <xs:sequence>
+      <xs:element type="estudianteType" name="estudiante" maxOccurs="unbounded" minOccurs="0">
+        <xs:annotation>
+          <xs:documentation>
+    Este es un comentario
+    </xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+    <xs:attribute ref="xs:noNamespaceSchemaLocation"/>
+  </xs:complexType>
+</xs:schema>
