@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-
+<?xml-stylesheet type="text/xsl" href="Estudiantes.xsl"?>
 <!-- <!DOCTYPE estudiantes[]> -->
-<!DOCTYPE estudiantes SYSTEM "Estudiantes.dtd">
-<estudiantes>
+<!-- <!DOCTYPE estudiantes SYSTEM "Estudiantes.dtd"> -->
+
+
+
+
+<estudiantes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:noNamespaceSchemaLocation="Estudiantes.xsd">
     <!--
     Este es un comentario
     -->
     <estudiante documento="DOC123" nacionalidad="EEUU" tipoDocumento="RC">
+        <nacionalidad></nacionalidad>
         <edad>21</edad>
         <comentario>
             fksalkfaskdfklasdfkadsfasd
@@ -14,11 +20,12 @@
             dsafjkasdfaksdfkajdksf
             &lt;
         </comentario>
+        <comentario>hola mundo!!!</comentario>
         <materias>
             <materia codRegistro="TMR032949234">
                 <codigo>ING20</codigo>
                 <nombreMat>Ingenieria Informatica</nombreMat>
-                <activo>true</activo>
+                <activo>1</activo>
             </materia>
             <materia codRegistro="TMPO234">
                 <codigo>CB21</codigo>

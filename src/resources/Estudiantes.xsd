@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="estudiantes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="estudiante" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="edad" type="xs:int" maxOccurs="1"/>
+                            <xs:element name="comentario" type="xs:string" maxOccurs="5" minOccurs="2"/>
+                            <xs:element name="materias" maxOccurs="1" minOccurs="1">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="materia" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="codigo" type="xs:string" maxOccurs="1" />
+                                                    <xs:element name="nombreMat" type="xs:string" maxOccurs="3"/>
+                                                    <xs:element name="activo" type="xs:boolean" maxOccurs="1"/>
+                                                </xs:sequence>
+                                                <xs:attribute name="codRegistro" type="xs:string" use="required"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="nacionalidad">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="EEUU"/>
+                                        <xs:enumeration value="CO"/>
+                                        <xs:enumeration value="ESP"/>
+                                        <xs:enumeration value="MX"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="documento" type="xs:ID" use="required"/>
+                        <xs:attribute name="nacionalidad" type="en"/>
+                        <xs:attribute name/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
